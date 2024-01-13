@@ -32,8 +32,8 @@ jobs:
       with:
         image: bruklemma/java-demo-app
         registry: docker.io
-        username: ${{ secret.DOCKER_USERNAME }}
-        password: ${{ secret.DOCKER_PASSWORD }}
+        username: ${{ secrets.DOCKER_USERNAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
     
 
          
